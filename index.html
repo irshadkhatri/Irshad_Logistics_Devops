@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Practice Webpage</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            backdrop-filter: blur(8.5px);
+            -webkit-backdrop-filter: blur(8.5px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #00ffcc;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .status-badge {
+            background-color: #28a745;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #bdc3c7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🚀 DevOps Deployment Successful!</h1>
+        <p>बधाई हो! आपकी वेब फ़ाइल सफलतापूर्वक लाइव हो चुकी है। यह पेज इस बात का सबूत है कि आपका वेब सर्वर और डिप्लॉयमेंट पाइपलाइन सही तरीके से काम कर रही है।</p>
+        
+        <div class="status-badge">🟢 App Status: Live & Healthy</div>
+        
+        <div class="footer">
+            <p>Managed via DevOps Automation | Server Time: <span id="time"></span></p>
+        </div>
+    </div>
+
+    <script>
+        // लाइव समय दिखाने के लिए छोटा सा स्क्रिप्ट
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('time').innerText = now.toLocaleTimeString();
+        }
+        setInterval(updateTime, 1000);
+        updateTime();
+    </script>
+</body>
+</html>
+
