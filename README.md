@@ -87,8 +87,34 @@ You said: uske aage ka palan,    ,         Day 39 तक आप लिनक्�
 - **Day 53:** **CI/CD live Deploy to AWS।** गिटहब पर कोड पुश करते ही वो सीधे अमेज़न के क्लाउड सर्वर पर लाइव हो जाए [AWS, LinkedIn]!
 - **Day 54:** **Monitoring & Logs (`htop`, AWS CloudWatch)।** लाइव सर्वर की सेहत पर नज़र रखना कि कहीं वो क्रैश तो नहीं हो रहा [AWS, LinkedIn]।
 - **Day 55:** **Resume Building & Portfolios।** आपका एक ऐसा शानदार रेज़्यूमे तैयार करना जिसे देखकर कंपनियां खुद बुलाएं [Naukri, LinkedIn]।
-- **Day 56 से Day 60:** **क्लाइंट-लेवल लाइव प्रोजेक्ट्स और मॉक इंटरव्यू की तैयारी!** 
+- **Day 56 से Day 60:** **क्लाइंट-लेवल लाइव प्रोजेक्ट्स और मॉक इंटरव्यू की तैयारी!**
+
+- 
+☸️ हफ़्ता ६: Advanced Orchestration (Kubernetes Introduction) (Day 61 - Day 70)
+
+• Day 61: Kubernetes (K8s) ka Shankhnaad. Samajhna ki jab Docker Compose chota padhta hai, toh K8s kaise hazaaron containers ko akele manage karta hai.
+• Day 62: K8s Architecture. Control Plane, Worker Nodes, aur API Server ka asli logic.
+• Day 63: Pods & Deployments. K8s ke andar containers (Pods) ko launch aur scale karna.
+• Day 64: K8s Services. NodePort aur ClusterIP ke zariye containers ko networking se jodna.
+• Day 65: ConfigMaps & Secrets. Database ke password aur configuration ko safe rakhna.
+• Day 66 - Day 70: AWS EKS (Elastic Kubernetes Service). AWS cloud par live Kubernetes cluster banana aur uspar apni website chalana—Yeh skill Upwork par $50/hour bikti hai!
+
+🏗️ हफ़्ता ७: Infrastructure as Code (Terraform Magic) (Day 71 - Day 80)
+
+• Day 71: Terraform ki Shuruat. Likh kar cloud infrastructure banana (Infrastructure as Code).
+• Day 72: Providers & Resources. Code likhkar AWS par automatic EC2 server deploy karna.
+• Day 73: Variables & Outputs. Ek hi code se alag-alag environments (Dev, Prod) banana.
+• Day 74: Terraform State File. System ko kaise yaad rehta hai ki cloud par kya bana hai.
+• Day 75 - Day 80: Mega Capstone Project. Ek command (terraform apply) chalate ہی poora AWS network (VPC, EC2, S3) khud-b-खुद ban jaye aur uspar CI/CD pipeline set ho jaye!
+
+🎯 हफ़्ता ८: Upwork Bidding Warrior & First Earning (Day 81 - Day 90 - Target: 28 November)
+
+• Day 81 - Day 83: Profile Optimization & Testimonials. Apne dosto ya local clients se shuruati reviews lena.
+• Day 84 - Day 85: The $100/Day Proposal Strategy. Aisi professional bid likhna jise dekhkar client 5 minutes mein reply kare.
+• Day 86 - Day 88: Live Bidding & Attacking Upwork. Roz subah aur raat ko active rehkar high-converting jobs par connect lagana.
+• Day 89: First Client Onboarding. Upwork par pehla order lock karna aur milestone set karna.
+• Day 90 (28 November): Roadmap Complete! Aapke haath mein DevOps ka folaadi gyaan aur Upwork par freelancing ka live setup hoga
 
 
 
-u
+
